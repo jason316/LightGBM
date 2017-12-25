@@ -219,7 +219,7 @@ private:
   /*! \brief Load query wights */
   void LoadQueryWeights();
   /*! \brief Filename of current data */
-  const char* data_filename_;
+  std::string data_filename_;
   /*! \brief Number of data */
   data_size_t num_data_;
   /*! \brief Number of weights, used to check correct weight file */
